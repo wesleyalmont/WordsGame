@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Jogo das Palavras</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <header class="container__header">
+          <h1 class="container__header--title">Jogo das Palavras</h1>
+          
+          <div class="container__header--timer">
+            <div>Chances <span class="chances">0</span></div>
+          </div>
+
+          <div class="container__header--score">
+            <div class="display-score">Score: <span class="score">0</span></div>
+          </div>
+        </header>
+        <div class="palavra"></div>
+        <div class="botoes">
+          <button class="btn-sortear"><i class="fas fa-redo "></i>SORTEAR</button>
+          <input type="text" name="" class="letra-max" maxlength="1" />
+          <button class="btn-adivinhar">JOGAR LETRA</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="jogar-wrapper">
+          <h2 class="container__header--title">Jogo das Palavras</h2>
+          <button class="btn-jogar">JOGAR</button>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ed0530210e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
